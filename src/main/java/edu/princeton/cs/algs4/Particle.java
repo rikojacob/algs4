@@ -105,6 +105,10 @@ public class Particle {
     public int count() {
         return count;
     }
+    public double xpos() { return rx;}
+    public double ypos() { return ry;}
+    public double xvel() { return vx;}
+    public double yvel() { return vy;}
 
     /**
      * Returns the amount of time for this particle to collide with the specified
